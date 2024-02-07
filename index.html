@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies</title>
+    <style>
+        /* Universal Selector: Set background color for all elements */
+        * {
+            background-color: lightblue;
+        }
+
+        /* CSS for block elements */
+        /* Selecting the <h1> element */
+        h1 {
+            color: #333;
+            font-family: Comic Sans MS;
+            text-align : center;
+        }
+        
+        /* Selecting the <p> elements */
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        /* Selecting the <ol> element */
+        ol {
+            padding-left: 0;
+            text-align: center;
+        }
+        
+        /* Selecting the <li> elements */
+        li {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        
+        /* Selecting the <strong> elements */
+        strong {
+            color: aqua;
+            font-weight: bold;
+        }
+
+        /* Class Selector: Style elements with the "highlight" class */
+        .highlight {
+            background-color: blueviolet; 
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* ID Selector: Style the element with the ID "page-heading" */
+        #page-heading {
+            background-color: #333; /* dark gray */
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        /* Combination Selector: Selecting <p> elements inside <ol> */
+            ol p {
+            font-style: italic;
+        }
+
+        /* Combination Selector: Selecting <li> elements inside <ol> */
+        ol li {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Block Element: Heading with ID -->
+    <h1 id="page-heading">My Hobbies</h1>
+    
+    <!-- Block Element: Paragraph -->
+    <p>Below are some of my favorite hobbies:</p>
+    
+    <!-- Block Element: Ordered List -->
+    <ol>
+        <!-- Inline Element: List Item -->
+        <li><strong class="highlight">Sketching</strong> - I love to express my creativity through sketching different subjects.</li><br>
+        <li><strong class="highlight">Painting</strong> - Painting allows me to explore different colors and techniques to create beautiful art.</li><br>
+        <li><strong class="highlight">Playing Football</strong> - Football is not just a sport for me, it's a passion. I enjoy the teamwork and competitiveness it offers.</li><br>
+    </ol>
+    
+    <!-- Block Element: Paragraph -->
+    <p>These hobbies bring joy and relaxation to my life, and I always look forward to spending time on them.<br>
+    I feel young when I spend my time doing these activities.</p>
+
+</body>
+</html>
